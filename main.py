@@ -6,6 +6,8 @@ import ex_012_integer_to_roman
 import ex_013_roman_to_integer
 import ex_014_longest_common_prefix
 import ex_020_valid_parantheses
+import ex_021_merge_two_sorted_lists
+from ex_021_merge_two_sorted_lists import ListNode
 
 # print(ex_001_two_sum.twoSum([2, 7, 11, 15], 9))
 # print(ex_002_add_two_numbers.addTwoNumbers(ex_002_add_two_numbers.ListNode(2), ex_002_add_two_numbers.ListNode(5)).val)
@@ -15,3 +17,4 @@ import ex_020_valid_parantheses
 # print(ex_013_roman_to_integer.romanToInt("MMXX"))
 # print(ex_014_longest_common_prefix.longestCommonPrefix(["flower","flow","flight"]))
 # print(ex_020_valid_parantheses.isValid("]"))
+# print(ex_021_merge_two_sorted_lists.mergeTwoLists(ListNode.from_list([1, 2,4]), ListNode.from_list([1, 3, 4])))
