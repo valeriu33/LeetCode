@@ -2,8 +2,6 @@ import copy
 
 towers = [["@", "*", "."], [], []]
 
-print("1  @ * .\n2\n3\n\n\n")
-
 
 def move(from_t: int, to_t: int):
     print("Moving from tower", from_t, "to", to_t)
@@ -20,6 +18,7 @@ def move(from_t: int, to_t: int):
 
 
 def hanoi(n: int, from_t: int, through_t: int, to_t: int):
+    print("1  @ * .\n2\n3\n\n\n")
     if n == 0:
         pass
     else:
